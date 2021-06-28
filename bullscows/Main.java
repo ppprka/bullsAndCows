@@ -39,10 +39,6 @@ public class Main {
                     turn++;
                     String answer = sc.next();
                     char[] arr2 = answer.toCharArray();
-                    //int[] arr3 = new int[arr2.length];
-                    //for (int i = 0; i < arr3.length; i++) {
-                    //arr3[i] = Character.getNumericValue(arr2[i]);
-                    //}
                     for (int i = 0; i < arr1.length; i++) {
                         if (arr1[i] == arr2[i]) {
                             bulls++;
